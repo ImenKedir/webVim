@@ -63,7 +63,8 @@ return packer.startup(function(use)
 	use("akinsho/git-conflict.nvim")
 
 	-- Colorscheme
-	use({ "Yazeed1s/minimal.nvim" })
+	use("Yazeed1s/minimal.nvim") -- minimal
+	use("Yazeed1s/oh-lucy.nvim") -- oh-lucy-evening
 
 	-- Treesitter
 	use("nvim-treesitter/nvim-treesitter")
