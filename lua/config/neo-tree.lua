@@ -15,6 +15,7 @@ import("neo-tree", function(neoTree)
 		},
 		filesystem = {
 			filtered_items = {
+				visible = true, -- This is what you want: If you set this to `true`, all "hide" just mean "dimmed out"
 				never_show = {
 					".git",
 					".DS_Store",
