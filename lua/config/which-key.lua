@@ -50,8 +50,8 @@ import("which-key", function(whichKey)
 		},
 		["f"] = {
 			name = "Find",
-			["f"] = { "<cmd>lua require('telescope.builtin').live_grep()<CR>", "Text" },
-			["s"] = { "<cmd>lua require('telescope.builtin').find_files()<CR>", "Files" },
+			["s"] = { "<cmd>lua require('telescope.builtin').live_grep()<CR>", "Text" },
+			["f"] = { "<cmd>lua require('telescope.builtin').find_files()<CR>", "Files" },
 			["h"] = { "<cmd>lua require('telescope.builtin').help_tags()<CR>", "Help tags" },
 			["b"] = { "<cmd>lua require('telescope.builtin').buffers()<CR>", "Buffers" },
 			["m"] = { "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>", "Marked files" },
