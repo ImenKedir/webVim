@@ -23,6 +23,7 @@ import({ "telescope", "telescope.actions" }, function(modules)
 		},
 		pickers = {
 			find_files = {
+				hidden = true,
 				theme = "dropdown",
 				previewer = false,
 			},
