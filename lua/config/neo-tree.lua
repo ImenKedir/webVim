@@ -8,6 +8,7 @@ import("neo-tree", function(neoTree)
 		enable_git_status = true,
 		enable_diagnostics = true,
 		window = {
+			width = 30,
 			mappings = {
 				["l"] = "open",
 				["o"] = "open",
