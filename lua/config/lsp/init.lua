@@ -31,15 +31,11 @@ import({ "mason", "mason-lspconfig", "lspconfig", "cmp_nvim_lsp" }, function(mod
 			"tailwindcss",
 			"html",
 			"cssls",
-			"astro",
 			"yamlls",
 			"taplo",
 			"marksman",
-			"dockerls",
 			"cssmodules_ls",
 			"volar",
-			"angularls",
-			"rust_analyzer",
 		},
 	})
 
